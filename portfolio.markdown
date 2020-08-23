@@ -9,28 +9,28 @@ Here are some examples of the work we have done in very recent years.
 
 <div class="w3-row">
 
-<div class="w3-third">
+<div class="w3-half">
 <h2>.net</h2>
 <ul><li>
 <a href="/portfolio/dotnetcore/dot-net-core-web-api">WebAPI Outstanding doctor letters</a></li></ul>
 </div>
 
-<div class="w3-third">
+<div class="w3-half">
 <h2>c#</h2>
 Supporting business applications
 </div>
-
-<div class="w3-third">
-<h2>MVC</h2>
-Outpatient Appointment App
 </div>
 
-</div>
 <p> &nbsp;</p>
 
 <div class="w3-row">
 
-<div class="w3-third">
+<div class="w3-half">
+<h2>MVC</h2>
+Outpatient Appointment App
+</div>
+
+<div class="w3-half">
 <h2>Oracle Apex</h2>
 <ul>
 <li><a
@@ -50,7 +50,12 @@ Oracle Apex Business Applications</a><br>
 </ul>
 </div>
 
-<div class="w3-third">
+</div>
+<p> &nbsp;</p>
+
+<div class="w3-row">
+
+<div class="w3-half">
 <h2>Content Management Systems (CMS)</h2>
 <ul>
 <li><a href="/portfolio/wordpress/dean-street-express-teaser-website">Dean
