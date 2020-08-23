@@ -1,0 +1,43 @@
+---
+title: JakeJnx.com
+collections:
+  portfolio:
+    title: Portfolio
+    output: true
+    permalink: "/:collection/:categories/:name"
+    label: portfolio
+  blog:
+    title: Blog
+    output: true
+    permalink: "/:collection/:categories/:name"
+    label: blog
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: portfolio
+  values:
+    layout: portfolio
+- scope:
+    path: ''
+    type: blog
+  values:
+    layout: post
+author:
+  name: Jake Jenkins
+  email: dev@jakejnx.com
+description: The professional portfolio of Jake Jenkins, a full stack software developer
+  in South Wales, United Kingdom.
+baseurl: 
+url: https://jakejnx.com
+show_excerpts: false
+minima:
+  date_format: "%-d %b %Y"
+include:
+- _headers
+theme: minima
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
