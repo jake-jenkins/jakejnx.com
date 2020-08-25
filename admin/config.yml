@@ -5,7 +5,7 @@ media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: '_blog/'
+    folder: '_posts/'
     create: true
     slug: '/blog/{{slug}}'
     editor:
