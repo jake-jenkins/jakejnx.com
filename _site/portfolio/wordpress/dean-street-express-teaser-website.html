@@ -18,11 +18,7 @@
 <script type="application/ld+json">
 {"headline":"Dean Street Express Teaser Website","dateModified":"2014-02-06T00:00:00+00:00","datePublished":"2014-02-06T00:00:00+00:00","author":{"@type":"Person","name":"Jake Jenkins"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/portfolio/wordpress/dean-street-express-teaser-website"},"description":"A new concept sexual health clinic was opened in central London to reduce rates of HIV","url":"http://localhost:4000/portfolio/wordpress/dean-street-express-teaser-website","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="JakeJnx.com" /><link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jakejnx.com/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.jakejnx.com/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jakejnx.com/favicon-16x16.png">
-<link rel="manifest" href="https://cdn.jakejnx.com/site.webmanifest">
-<link rel="stylesheet" href="https://cdn.jakejnx.com/w3.css">
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="JakeJnx.com" /><link rel="stylesheet" href="https://cdn.jakejnx.com/w3.css">
 <style>
 body {
     font-size: 1.1em;
@@ -158,6 +154,8 @@ font-size: 1rem;
 }
 
 </style>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </head><body><!-- Navigation Bar-->
 <header>
@@ -302,6 +300,18 @@ font-size: 1rem;
     }
   }
   </script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
 
 </html>
