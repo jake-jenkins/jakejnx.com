@@ -3,8 +3,10 @@ Title: Changes to our Website
 Date: 2020-08-23 16:10:27 Z
 color: green
 image: sunrisejnx.jpg
+title: Changes to Our Website
+date: 2020-08-25T22:59:28.584Z
 categories:
-- Company
+  - Company
 ---
 Historically this site has been the professional portfolio of Jake Jenkins, a software developer based in Cardiff.  But from today, the site has a change of purpose, as I begin to build my own business, JakeJnx Software Development.
 
