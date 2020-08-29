@@ -8,9 +8,9 @@ This is something new which is coming soon.
 
 <div class="content">
 <ul>
-{% assign blog1 = site.blog | sort: 'date' | reverse %}
-{% for blog in blog1 %}
-<li><a href="{{ blog.url }}"> {{ blog.title }}</a> - {{ blog.categories }} - {{ blog.date | date: "%B %Y"}} </li>
+{% for posts in site.posts %}
+<li>{{ post.title }} - {{ post.categories }}</li>
 {% endfor %}
+
 </ul>
 </div>

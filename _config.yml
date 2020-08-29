@@ -6,11 +6,6 @@ collections:
     output: true
     permalink: "/:collection/:categories/:name"
     label: portfolio
-  blog:
-    title: Blog
-    output: true
-    permalink: "/:collection/:categories/:name"
-    label: blog
   uploads:
     title: Uploads
     output: true
