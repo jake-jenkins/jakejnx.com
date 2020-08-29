@@ -14,22 +14,10 @@ collections:
   uploads:
     title: Uploads
     output: true
-defaults:
-- scope:
-    path: ''
-    type: portfolio
-  values:
-    layout: portfolio
-- scope:
-    path: ''
-    type: blog
-  values:
-    layout: post
 author:
   name: Jake Jenkins
   email: dev@jakejnx.com
-description: The professional portfolio of Jake Jenkins, a full stack software developer
-  in South Wales, United Kingdom.
+description: JakeJnx is a software development company based in South Wales providing custom app building, website design and support in Cardiff, Newport and Bristol. 
 baseurl: 
 url: https://jakejnx.com
 show_excerpts: false
