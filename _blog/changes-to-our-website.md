@@ -6,6 +6,7 @@ image: sunrisejnx.jpg
 categories:
 - Company
 ---
+
 Historically this site has been the professional portfolio of Jake Jenkins, a software developer based in Cardiff.  But from today, the site has a change of purpose, as I begin to build my own business, JakeJnx Software Development.
 
 The site will now have a change of tone, and feel as the approach becomes more about product offerings.  I will be providing the same excellent quality and levels of service that my customers have loved, but instead, provide it as a business, rather than an individual.
