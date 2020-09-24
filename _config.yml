@@ -1,5 +1,6 @@
 ---
 title: JakeJnx.com
+timezone: UTC
 collections:
   blog:
     title: Blog
