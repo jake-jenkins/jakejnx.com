@@ -1,6 +1,8 @@
 ---
 title: Setting Up Fider
 date: 2020-09-24 23:32:00 Z
+categories:
+- agile
 ---
 
 For this week's blog entry I am discussing how I set up fider https://getfider.com/.  Fider is a fantastic, super simple tool to help involve users in software development.  It allows people to post an idea and it can be up voted by other users.
