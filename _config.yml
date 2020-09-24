@@ -13,10 +13,10 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: posts
+    type: blog
   values:
     layout: post
-    permalink: "/posts/:title/"
+    permalink: "/blog/:title/"
 - scope:
     path: ''
     type: pages
