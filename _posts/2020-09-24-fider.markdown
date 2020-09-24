@@ -1,5 +1,5 @@
 ---
-title: Fider
+title: Setting Up Fider
 date: 2020-09-24 23:30:00 Z
 ---
 
