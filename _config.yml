@@ -1,6 +1,5 @@
 ---
 title: JakeJnx.com
-timezone: UTC
 collections:
   blog:
     title: Blog
@@ -24,3 +23,5 @@ defaults:
   values:
     layout: page
 permalink: pretty
+plugins:
+- jekyll-seo-tag
